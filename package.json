@@ -15,15 +15,17 @@
         "cookie-parser": "~1.4.4",
         "debug": "~2.6.9",
         "ejs": "~2.6.1",
-        "express": "~4.16.1",
+        "express": "^4.16.4",
+        "forever": "^3.0.4",
         "http-errors": "~1.6.3",
+        "index.js": "^0.0.3",
         "jquery": "^3.5.1",
         "morgan": "~1.9.1",
-        "popper.js": "^1.16.1"
+        "popper.js": "^1.16.1",
+        "routes": "^2.1.0"
     },
     "description": "portfolio assignment",
-    "main": "index.js",
-    "devDependencies": {},
+    "main": "./routes/index.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/shaheenkaipally/webdevportfolio.git"
@@ -33,5 +35,8 @@
     "bugs": {
         "url": "https://github.com/shaheenkaipally/webdevportfolio/issues"
     },
-    "homepage": "https://github.com/shaheenkaipally/webdevportfolio#readme"
+    "homepage": "https://github.com/shaheenkaipally/webdevportfolio#readme",
+    "devDependencies": {
+        "@types/node": "^14.14.31"
+    }
 }
